@@ -21,7 +21,7 @@ func Handle(c *gin.Context) {
         return
     }
 
-    name := "stranger things"
+    name := "stranger things :)"
     if input.Name != nil && *input.Name != "" {
         name = *input.Name
     }
